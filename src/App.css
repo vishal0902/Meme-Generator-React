@@ -161,4 +161,9 @@ linear-gradient(90.41deg, #1806e8 0%, #b700f4 60%);
   }
 
 
+  .btn:hover {
+    cursor: pointer;
+  }
+
+
  
