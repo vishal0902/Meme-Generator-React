@@ -13,7 +13,7 @@ const App = () => {
   const [meme, setMeme] = useState({
     topText: "",
     bottomText: "",
-    imageUrl: "https://i.imgflip.com/30b1gx.jpg"
+    imageUrl: ""
   })
 
 
