@@ -2,9 +2,9 @@ const Meme = (props) => {
         
     return (
         <div className="memeComponent">
-            <img src={props.url} alt="" className="memeImage" />
+            {props.url && <img src={props.url} alt="" className="memeImage" />}|
             
-            <p className="memeText top">{props.topText}</p>
+                <p className="memeText top">{props.topText}</p>
                 <p className="memeText bottom">{props.bottomText}</p>
         </div>
         

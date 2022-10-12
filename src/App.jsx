@@ -83,6 +83,7 @@ const App = () => {
                   onChange={handleChange}
                   value={meme.topText}
                   id=""
+                  placeholder="Top Text"
                 />
               </div>
         
@@ -95,6 +96,7 @@ const App = () => {
                   onChange={handleChange}
                   value={meme.bottomText}
                   id=""
+                  placeholder= "Bottom Text"
                 />
               </div>
 
